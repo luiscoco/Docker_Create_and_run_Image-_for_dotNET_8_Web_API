@@ -90,6 +90,12 @@ And we can see the running containers with the command:
 docker ps
 ```
 
+Finally see the Web API running container endpoints
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/9d3a9601-78ce-4d29-8af8-dc04a5d53d5b)
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/192dfb78-52b5-4673-a030-4fe4389b69c8)
+
 **IMPORTANT NOTE**: 
 
 Another option for creating automatically a dockerfile is to add "docker support" in our application
