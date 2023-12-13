@@ -12,6 +12,8 @@ Install Visual Studio 2022 Community edition
 
 **IMPORTANT**! Install and **Run Docker Desktop** before starting creating the application in Visual Studio 2022
 
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/7b58cdb3-a290-457a-b15d-76562a2da203)
+
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/c6444f00-a64e-4fc3-a515-db8bf7e1b66e)
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/f87185c0-9051-41cb-89cd-f5a547144bb9)
@@ -53,6 +55,12 @@ ENTRYPOINT ["dotnet", "WebAPIdotNET8.dll"]
 ```
 
 ## 2. Create the dockerfile
+
+We can automatically create and run the application Docker Image  pressing the **Docker** button in Visual Studio 2022
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/ea68b43b-71c6-4dbc-adf9-f9edb7d0127b)
+
+
 
 For creating automatically a dockerfile we add "docker support" in our application
 
