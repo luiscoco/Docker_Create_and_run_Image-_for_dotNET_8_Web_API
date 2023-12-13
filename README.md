@@ -120,6 +120,20 @@ Press the "**Create Repository**" button
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/b67d942c-8e60-4d1e-8c3d-0cb72b480799)
 
+We set the new repo name, we select public or private repo and we include a repo description.
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/d0faa9c1-815f-4ba0-a90c-238c88a80a87)
+
+We can Push images to this repo with the following commands: 
+
+```
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
+```
+
+We can see the repositories list
+
+
 
 ## 4. Create the application Docker image
 
