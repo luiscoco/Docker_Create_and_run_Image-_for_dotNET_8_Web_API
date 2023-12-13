@@ -217,9 +217,9 @@ Now in Docker Desktop we can see the docker container is running
 
 We can also navigate to the Web API endpoints:
 
+http://localhost:5269/weatherforecast
 
-
-
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/ec2e73c5-5cc4-420d-b213-4e82fa199aea)
 
 
 
