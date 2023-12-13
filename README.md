@@ -14,19 +14,19 @@ Install Visual Studio 2022 Community edition
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/7b58cdb3-a290-457a-b15d-76562a2da203)
 
-Run Visual Studio 2022 Community Edition 
+Run Visual Studio 2022 Community Edition and create a new project 
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/c6444f00-a64e-4fc3-a515-db8bf7e1b66e)
 
-Create a new project
+Select the .NET Web API template
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/f87185c0-9051-41cb-89cd-f5a547144bb9)
 
-Select the .NET Web API template
+Set the project name and location
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/d005f758-c124-4483-bd35-5a00cb4faa51)
 
-Set the project name and location
+Select the .NET 8 framework, also select the Docker support for creating a dockerfile automatically
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/2af5048d-66c5-4159-b728-0bbf9082d0e3)
 
