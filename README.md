@@ -70,9 +70,35 @@ We can automatically create and run the application Docker Image pressing the **
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/ea68b43b-71c6-4dbc-adf9-f9edb7d0127b)
 
+See the docker image in Docker Desktop
 
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/93ea102a-5e00-4857-910b-6ac32b3539e3)
 
-For creating automatically a dockerfile we add "docker support" in our application
+See the docker running container in Docker Desktop
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/fa7fb04d-d25d-404d-88be-bc3fa2aed0c9)
+
+Also we can see the image with the command prompt command:
+
+```
+docker image
+```
+
+And we can see the running containers with the command:
+
+```
+docker ps
+```
+
+**IMPORTANT NOTE**: 
+
+Another option for creating automatically a dockerfile is to add "docker support" in our application
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/ee3340e7-90b0-428d-b796-1000853e8c9f)
+
+Then we select the docker virtual machine operating system, in our case we select "**Linux**"
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/ab91a28d-faca-4be2-8dc2-542683523561)
 
 
 
