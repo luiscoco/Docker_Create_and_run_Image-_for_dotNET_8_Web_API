@@ -30,6 +30,8 @@ Select the .NET 8 framework, also select **Enable Docker** for creating a docker
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/2af5048d-66c5-4159-b728-0bbf9082d0e3)
 
+Click on the dockerfile to see the content
+
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/a4fa4f42-0952-453c-a04e-02aaf8716333)
 
 This is the dockefile source code
@@ -62,9 +64,9 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebAPIdotNET8.dll"]
 ```
 
-## 2. Create the dockerfile
+## 2. Create and run the Docker image 
 
-We can automatically create and run the application Docker Image  pressing the **Docker** button in Visual Studio 2022
+We can automatically create and run the application Docker Image pressing the **Docker** button in Visual Studio 2022
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/ea68b43b-71c6-4dbc-adf9-f9edb7d0127b)
 
