@@ -181,7 +181,42 @@ See the new docker image in the repo
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/a1cb5201-7055-4d35-9fcd-51489592e49e)
 
-Another option is to create a docker image with an arbitrary name and after rename the image including the docker repo name
+## 5. We pull the docker image from Docker hub and we run in Docker Desktop
+
+We pull the image with the command:
+
+```
+docker pull luiscoco/webapidotnet8
+```
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/612b1aa1-8dc9-4ecc-b5cc-13eb2b9bb8d7)
+
+Then we open Docker Desktop and we confirm the docker image was downloaded but it is not yet running in a container
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/3a6fabd4-a6b5-44f2-af43-1c619e815058)
+
+To run the docker image in a container, we press the run button (see the following image), or we type this command
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/e60629a4-7321-48eb-b99f-fa9485622898)
+
+Or we can type the following command, taking into account we map the launchSetting.json http port with the 8080 port in dockerfile
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/d504e779-9cbd-4a4d-9c31-d416d0b91974)
+
+```
+docker run -d -p 5269:8080 luiscoco/webapidotnet8:latest
+```
+
+And also we can see the docker logs, see this picture
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/5d67f6bb-d0db-43a8-b2a2-e9504a8fa745)
+
+Now in Docker Desktop we can see the docker container is running
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/f98ec62a-6ec6-4192-9f1e-eddcb3d9b85a)
+
+We can also navigate to the Web API endpoints:
+
 
 
 
