@@ -1,4 +1,4 @@
-# Docker: How to create and run a docker image from a . NET 8 Web API application
+# Containerize a .NET 8 Web API application with Docker and upload/download the image to/from Docker Hub
 
 ## 0. Prerequisites
 
