@@ -145,13 +145,27 @@ Pay attention we have to include the docker hub repo name then the docker image 
 docker build -t dockerreponame/dockerimagename:tag .
 ```
 
-For a real example, we open in Visual Studio a Terminal Window and we run the following command: 
+For a real example, we right click on the project name and we select the menu option "**Open in Terminal**" then we run the following command: 
 
 ```
-docker build -t luiscoco/webapidotnet8:latest
+docker build -t luiscoco/webapidotnet8:latest .
 ```
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/c6ed928a-1553-440b-9c84-28d622d13706)
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/d8e48865-36a0-4e6d-b690-85ac96e43788)
+
+We check we create the docker image and we run the docker container 
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/582d4f54-57e2-4a05-9c88-e70cf79870cd)
+
+Then we use the docker push command to upload the image to the Docker Hub repository:
+
+```
+docker push luiscoco/webapidotnet8:latest
+```
+
+Also we can pull the docker image from the Docker Hub repository with the following command:
 
 
 
