@@ -106,9 +106,22 @@ Then we select the docker virtual machine operating system, in our case we selec
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/ab91a28d-faca-4be2-8dc2-542683523561)
 
+## 3. Upload/download the Docker image to/from the Docker Hub
+
+Login in Docker Hub and create a new account (Sign Up)
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/26e2923e-e081-46f4-a64f-1dbe16ae58a6)
+
+After creating an account we Sing in
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/9f85488e-a4e0-4f06-8b90-0f8973742f33)
+
+Press the "**Create Repository**" button
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/b67d942c-8e60-4d1e-8c3d-0cb72b480799)
 
 
-## 3. Create the application Docker image
+## 4. Create the application Docker image
 
 ```
 docker build -t dockerreponame/dockerimagename:tag .
@@ -121,13 +134,7 @@ docker build -t luiscoco/webapi:latest
 ```
 
 
-## 4. Upload/download the Docker image to/from the Docker Hub
 
-
-
-
-
-## 5. Run the docker image
 
 
 
