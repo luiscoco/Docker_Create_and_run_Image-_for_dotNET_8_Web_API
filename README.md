@@ -167,7 +167,19 @@ docker push luiscoco/webapidotnet8:latest
 
 Also we can pull the docker image from the Docker Hub repository with the following command:
 
+```
+docker pull luiscoco/webapidotnet8
+```
 
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/376dc20d-4ae0-4aed-842c-5c71b5b2cd5a)
+
+See the new docker image in the repo
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/7e38db3a-ed91-40b8-bfbd-e2cc333b9d17)
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/9b4c6f9e-5b0b-45c6-bed3-e286cfbf3a94)
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/a1cb5201-7055-4d35-9fcd-51489592e49e)
 
 Another option is to create a docker image with an arbitrary name and after rename the image including the docker repo name
 
