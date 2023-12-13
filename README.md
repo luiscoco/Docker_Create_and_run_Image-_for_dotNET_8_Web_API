@@ -133,6 +133,9 @@ docker push new-repo:tagname
 
 We can see the repositories list
 
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/7b88adb2-3b56-4cd6-a3fb-011eefbea51e)
+
+
 
 
 ## 4. Create the application Docker image
