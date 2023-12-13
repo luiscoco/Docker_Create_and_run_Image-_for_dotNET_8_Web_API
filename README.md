@@ -22,7 +22,35 @@ Install Visual Studio 2022 Community edition
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/a4fa4f42-0952-453c-a04e-02aaf8716333)
 
+This is the dockefile source code
 
+```dockerfile
+#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER app
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["WebAPIdotNET8.csproj", "."]
+RUN dotnet restore "./././WebAPIdotNET8.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "./WebAPIdotNET8.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./WebAPIdotNET8.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "WebAPIdotNET8.dll"]
+```
 
 ## 2. Create the dockerfile
 
