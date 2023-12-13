@@ -135,20 +135,27 @@ We can see the repositories list
 
 ![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/7b88adb2-3b56-4cd6-a3fb-011eefbea51e)
 
+## 4. Create the docker image and upload to the new repo in Docker Hub
 
+This is the general syntax for creating a new image that we would like to upload to the Docker Hub repo. 
 
-
-## 4. Create the application Docker image
+Pay attention we have to include the docker hub repo name then the docker image name and finally the docker image tag.
 
 ```
 docker build -t dockerreponame/dockerimagename:tag .
 ```
 
-For example:
+For a real example, we open in Visual Studio a Terminal Window and we run the following command: 
 
 ```
-docker build -t luiscoco/webapi:latest
+docker build -t luiscoco/webapidotnet8:latest
 ```
+
+![image](https://github.com/luiscoco/Docker_Create_and_run_Image-_for_dotNET_8_Web_API/assets/32194879/c6ed928a-1553-440b-9c84-28d622d13706)
+
+
+
+Another option is to create a docker image with an arbitrary name and after rename the image including the docker repo name
 
 
 
